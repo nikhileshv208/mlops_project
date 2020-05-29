@@ -43,6 +43,6 @@ model.compile(loss=sparse_categorical_crossentropy,
 
 mind = model.fit(X_train, y_train,
             batch_size=50,
-            epochs=50,
+            epochs=60,
             verbose=1,
             validation_split=0.2)
